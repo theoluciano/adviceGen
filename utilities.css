@@ -1,0 +1,29 @@
+@import url(https://fonts.google.com/specimen/Manrope);
+
+:root{
+  /* Colors */
+
+  /* Primary */
+--color-grayish-blue: hsl(217, 19%, 38%);
+--color-dark-grayish-blue: hsl(217, 19%, 24%);
+--color-dark-blue: hsl(218, 23%, 16%);
+
+  /* Neutral */
+--color-primary-light: hsl(193, 38%, 86%);
+--color-primary-neon: hsl(150, 100%, 66%);
+
+  /* Spacing */
+
+--space-sm: 8px;
+--space-md: 16px;
+--space-lg: 24px;
+--space-xl: 32px;
+
+  /* Box Shadow */
+
+--box-shadow-basic: 0px 0px 10px 10px hsl(218, 23%, 15%);
+
+  /* Radius */
+
+--border-radius-stndrd: 15px;
+}
