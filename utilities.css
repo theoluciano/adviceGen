@@ -1,4 +1,3 @@
-@import url(https://fonts.google.com/specimen/Manrope);
 
 :root{
   /* Colors */
@@ -26,4 +25,5 @@
   /* Radius */
 
 --border-radius-stndrd: 15px;
+
 }

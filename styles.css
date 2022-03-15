@@ -1,4 +1,5 @@
 @import "utilities.css";
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 body {
   background-color: var(--color-dark-blue);
   color: var(--color-primary-light);
@@ -11,9 +12,11 @@ body {
 .container{
   background-color: var(--color-dark-grayish-blue);
   display: flex;
-  justify-content: center;
-  width: 40%;
-  height: 40%;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  height: 30%;
   padding: var(--space-xl);
   position: fixed;
   top: 50%;
@@ -21,5 +24,63 @@ body {
   transform: translate(-50%, -50%);
   box-shadow: var(--box-shadow-basic);
   border-radius: var(--border-radius-stndrd);
+  padding: 6vh;
+}
+
+.quote {
+  font-family: 'Manrope', sans-serif;
+  color: var(--color-primary-light);
+  font-size: x-large;
+  text-align: center;
+}
+
+.quote-id {
+  font-family: 'Manrope', sans-serif;
+  color: var(--color-primary-neon);
+  letter-spacing: 3px;
+  font-weight: 1000;
+  text-align: right;
+}
+
+.dice-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -40px;
+}
+
+
+.dice-background{
+  background-color: var(--color-primary-neon);
+  width: 75px;
+  height: 75px;
+  border-radius: 50px;
+  border-radius: 50px;
+  text-decoration: none;
+  border: none;
+}
+
+.dice-background:hover{
+  box-shadow: 0 0 40px 5px var(--color-primary-neon);
+}
+
+
+.dice-icon{
+  background-color: var(--color-primary-neon);
+  position: absolute;
+}
+
+.divider{
+  width: 100%;
+  padding-bottom: 4vh;
+}
+
+@media (max-width: 800px) {
+  .container{
+    width: 280px;
+    height: 40%;
+  }
+  
 }
 
