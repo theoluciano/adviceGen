@@ -42,16 +42,16 @@ body {
   text-align: right;
 }
 
-.dice-button{
+.advice-button{
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
-  bottom: -40px;
+  bottom: -38px;
 }
 
 
-.dice-background{
+.green-button{
   background-color: var(--color-primary-neon);
   width: 75px;
   height: 75px;
@@ -59,16 +59,19 @@ body {
   border-radius: 50px;
   text-decoration: none;
   border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.dice-background:hover{
+.green-button:hover{
   box-shadow: 0 0 40px 5px var(--color-primary-neon);
 }
 
 
 .dice-icon{
   background-color: var(--color-primary-neon);
-  position: absolute;
+  position: relative;
 }
 
 .divider{
