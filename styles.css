@@ -62,7 +62,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: url("/Users/theoluciano/Workspace/adviceGen/monacle-face.png"), auto;
 }
+
 
 .green-button:hover{
   box-shadow: 0 0 40px 5px var(--color-primary-neon);
