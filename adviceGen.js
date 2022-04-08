@@ -10,13 +10,11 @@ window.onload = () => {
   getAdvice();
 }
 function getAdvice(){
-  fetch('https://api.adviceslip.com/advice').then(response => {
+  fetch('https://ron-swanson-quotes.herokuapp.com/v2/quotes').then(response => {
     return response.json();
   }).then(adviceData => {
-    const AdviceObject = adviceData.slip;
-    const AdviceId = adviceData.slip;
-    adviceDisplay.innerHTML = `<p>${AdviceObject.advice}</p>`;
-    adviceId.innerHTML = `${AdviceId.id}`
+    adviceDisplay.innerHTML = `<p>${adviceData[0]}</p>`;
+    adviceId.innerHTML = Math.floor(Math.random() * 200)
   }).catch(error => {
     console.log(error);
   })

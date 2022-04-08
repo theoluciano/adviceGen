@@ -16,7 +16,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 30%;
-  height: 30%;
+  min-height: 30%;
   padding: var(--space-xl);
   position: fixed;
   top: 50%;
